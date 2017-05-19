@@ -1,2 +1,5 @@
 # ignore sass directory
 assets/sass
+
+# ignore .htaccess
+.htaccess

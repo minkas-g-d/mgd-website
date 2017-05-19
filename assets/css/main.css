@@ -3114,10 +3114,12 @@
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+
+			margin-bottom: 0.5em;
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 5em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3153,6 +3155,8 @@
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+
+					width: 100px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3162,7 +3166,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 5em 4em 3em 4em ;
 				}
 
 		}
@@ -3174,7 +3178,7 @@
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 3em 3em 2em 3em ;
 				}
 
 		}
@@ -3195,11 +3199,15 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 3em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
 						font-size: 2.5em;
+					}
+
+					#header.alt .logo img {
+						width: 80px;
 					}
 
 		}
@@ -3211,8 +3219,16 @@
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 2.5em 1.5em 1em 1.5em ;
 				}
+
+					#header.alt h1 {
+						font-size: 2em;
+					}
+
+						#header.alt .logo img {
+							width: 50px;
+						}
 
 		}
 
@@ -3223,7 +3239,7 @@
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 3em 1em 0.5em 1em ;
 				}
 
 		}
@@ -3674,7 +3690,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 2.5em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
