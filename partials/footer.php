@@ -4,9 +4,9 @@
 		<section>
 			<h2>Всички продукти</h2>
 			<ul>
-				<li><a href="/mineralni-i-trapezni-vodi.html">Минерални и трапезни води</a></li>
-				<li><a href="/konservirani-i-paketirani-hrani.html">Консервирани и пакетирани храни</a></li>
-				<li><a href="/podpravki-i-susheni-producti.html">Подправки и сушени продукти</a></li>
+				<li><a href="/mineralni-i-trapezni-vodi">Минерални и трапезни води</a></li>
+				<li><a href="/konservirani-i-paketirani-hrani">Консервирани и пакетирани храни</a></li>
+				<li><a href="/podpravki-i-susheni-producti">Подправки и сушени продукти</a></li>
 			</ul>
 		</section>
 		<section>
