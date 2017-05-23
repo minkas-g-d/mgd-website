@@ -1711,7 +1711,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		p.content {
@@ -1867,6 +1867,18 @@
 
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.clear {
+		clear: both;
 	}
 
 /* Box */
@@ -3040,6 +3052,13 @@
 				margin: 0 0 2em 0;
 			}
 
+			.spotlight .content .organisation-logo {
+				margin: 0;
+			}			
+			.spotlight .content .organisation-logo img {
+				width: 8em;
+			}
+
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
@@ -3054,6 +3073,14 @@
 				width: 16em;
 			}
 
+		.spotlight .image-container {
+			width: 25%;
+		}
+
+		.spotlight .text-container {
+			width: 73%;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
@@ -3061,7 +3088,7 @@
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
-				text-align: center;
+				/*text-align: center;*/
 			}
 
 				.spotlight .content {
@@ -3072,10 +3099,10 @@
 					width: 100%;
 				}
 
-					.spotlight .content header.major h2:after {
+/*					.spotlight .content header.major h2:after {
 						margin-left: auto;
 						margin-right: auto;
-					}
+					}*/
 
 				.spotlight .image {
 					-moz-flex: 0 1 auto;
@@ -3097,6 +3124,14 @@
 				.spotlight .image img {
 					width: 12em;
 				}
+
+			.spotlight .image-container {
+				width: 100%;
+			}
+
+			.spotlight .text-container {
+				width: 100%;
+			}
 
 		}
 

@@ -5,7 +5,7 @@
 			<h2>Всички продукти</h2>
 			<ul>
 				<li><a href="mineralni-i-trapezni-vodi.html">Минерални и трапезни води</a></li>
-				<li><a href="#">Консервирани и пакетирани храни</a></li>
+				<li><a href="konservirani-i-paketirani-hrani.html">Консервирани и пакетирани храни</a></li>
 				<li><a href="#">Подправки и сушени продукти</a></li>
 			</ul>
 		</section>
