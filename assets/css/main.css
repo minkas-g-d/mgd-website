@@ -3139,6 +3139,12 @@
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+	@media screen and (max-width: 480px) { 
+		.spotlight .image.image-girl {
+			display: none;
+		}	
+	}
+
 /* Header */
 
 	#header {
