@@ -1844,6 +1844,10 @@
 		color: #ffffff;
 	}
 
+	a.phone {
+		border: 0 none;
+	}
+
 	strong, b {
 		color: #ffffff;
 	}
@@ -3219,7 +3223,7 @@
 			}
 
 				#header.alt {
-					padding: 2.5em 1.5em 1em 1.5em ;
+					padding: 2em 1.5em 1em 1.5em ;
 				}
 
 					#header.alt h1 {
@@ -3239,7 +3243,7 @@
 			}
 
 				#header.alt {
-					padding: 3em 1em 0.5em 1em ;
+					padding: 2em 1em 0.5em 1em ;
 				}
 
 		}
@@ -3320,7 +3324,7 @@
 				-ms-transition: margin 0.2s ease;
 				transition: margin 0.2s ease;
 				display: inline-block;
-				margin: 0 0.35em;
+				/*margin: 0 0.35em;*/
 				padding: 0;
 				vertical-align: middle;
 			}
@@ -3359,7 +3363,7 @@
 		}
 
 			#nav.alt ul li {
-				margin: 0 0.175em;
+				/*margin: 0 0.175em;*/
 			}
 
 				#nav.alt ul li a {
@@ -3369,12 +3373,29 @@
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				/*display: none;*/
+				padding: 0.5em 0.2em;
 			}
 
-				#nav + #main {
+/*				#nav + #main {
 					padding-top: 0;
-				}
+				}*/
+
+		}
+
+		@media screen and (max-width: 460px) {
+
+			#nav {
+				max-width: calc( 100% - 2em );
+			}
+
+		}		
+
+		@media screen and (max-width: 360px) {
+
+			#nav {
+				max-width: 100%;
+			}
 
 		}
 
@@ -3690,11 +3711,11 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 2.5em 1.5em 1em 1.5em ;
+				padding: 2em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
+					margin: -2em 0 1.5em -1.5em;
 					width: calc(100% + 3em);
 				}
 
@@ -3707,11 +3728,11 @@
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 2em 1em 0.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
-						margin: -2.5em 0 1.5em -1em;
+						margin: -2em 0 1.5em -1em;
 						width: calc(100% + 2em);
 						border-radius: 0;
 					}
