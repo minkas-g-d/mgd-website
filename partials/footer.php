@@ -13,7 +13,7 @@
 			<h2>Контакти:</h2>
 			<dl class="alt">
 				<dt>Телефон</dt>
-				<dd>0899 818 762</dd>
+				<dd><a href="tel:0899818873" class="phone">0899 818 873</a></dd>
 				<dt>Email</dt>
 				<dd><a href="#">mina_eood@abv.bg</a></dd>
 			</dl>

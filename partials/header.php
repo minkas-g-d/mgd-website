@@ -15,8 +15,8 @@
 	switch ( $page ) {
 		case 'mineralni-i-trapezni-vodi':
 			$title = '<meta name="title" content="Доставка на минерална и трапезна вода" />';
-			$metaDescription = '<meta name="description" content="Доставяме трапезна вода Савина и минерална вода Хисаря и Княжевска" />';
-			$metaKeywords = '<meta name="keywords" content="доставка трапезна вода, доставка минерална вода, Савина, Хисаря, Княжевска" />';
+			$metaDescription = '<meta name="description" content="Доставяме трапезна вода Савина и минерална вода Хисаря, Княжевска и изворна вода Петрохан" />';
+			$metaKeywords = '<meta name="keywords" content="доставка трапезна вода, доставка минерална вода, Савина, Хисаря, Княжевска, доставка изворна вода, Петрохан" />';
 			break;
 		case 'konservirani-i-paketirani-hrani':
 			$title = '<meta name="title" content="Доставка на консервирани и пакетирани храни" />';
@@ -51,6 +51,8 @@
 		<link rel="manifest" href="favicons/manifest.json">
 		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
+
+		<meta name="google-site-verification" content="fK4RQjxBghYAHWDPtRIJhSlhCjups9AbxabL9b_-FEs" />
 
 		' . $title . $metaDescription . $metaKeywords . '
 	</head>';
